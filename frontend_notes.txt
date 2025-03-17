@@ -1,0 +1,39 @@
+BOOTSTRAP JS AND REACT NOTES
+day1 monday 17-03-2025 
+
+steps to create new git repo:
+1. login to github account
+2. on top right of the window click + and select new repository
+3. give the name of the repository 
+4. add description
+5. make the repository as public
+6. initialize the repository with readme file
+7. click on create repository 
+
+GIT COMMANDS:
+$ git status
+the above command is used to know the status of the repo we are working in
+
+$ git clone https://github.com/sahana-santhosh/pfile_fe_mar25
+the above command copies the repo from the server(remote repo) into our computer
+
+$ git pull origin main
+the above command downloads the updated repo from the server . main here is the default branch name 
+
+$ git config --global user.name "sahana-santhosh"
+$ git config --global user.email "sahamsa2015@gmail.com"
+
+steps to create personal access token(PAT) 
+1. on the top right corner click on profile icon
+2. scroll down and click settings
+3. in the new window scroll down and click developer setting on the bottom left corner 
+4. in the new window on top left click tokens and then select tokens(classic) 
+5. in the new window click generate new token and select token(classic) 
+6. give a note
+7. click expiry and select no expiry
+8. select the checkbox repo 
+9. scroll down and click generate token  
+10. copy the PAT and mail it to yourself(use the main subject git PAT) 
+
+steps to sink remote repo with local
+1. $ git clone https://<PAT>github.com/sahana-santhosh/pfile_fe_mar25 
